@@ -1,0 +1,141 @@
+/* CATATAN:
+
+Kode ini selesai ditulis pada hari Selasa, 16 Juli 2019 pukul 9:36
+Animasi ini dibuat hanya semata-mata hiburan saja.
+Kode ini bebas dimodif dan gratis.
+
+Jangan lupa untuk terus mendukung ddQiaChannel dengan cara :
+1. SUBSCRIBE channel youtube kami (ddQia Channel)
+2. Like dan Share
+3. Kunjungi website kami ddqiachannel.com
+
+Terima Kasih atas Gambar gratisnnya kepada:
+jalantikus.com
+pixabay.com
+stocksnap.io
+
+Terima Kasih atas dukungan subscribers */
+
+body, ul {
+  margin: 0;padding: 0;
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  color: #ddd;
+  background: url(img/www.pexels.comphotocluster-of-stars-1341279.jpg) 100%/cover no-repeat;
+}
+.menu_area, ul {
+  top: 0;left: 0;
+  height:50px;
+}
+.menu_area {
+  position: relative;
+  width: 100%;
+}
+
+/* AREA TOMBOL MENU */
+ul {
+  position: absolute;
+  list-style: none;
+  display: flex;
+}
+li {
+  padding: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  opacity:1;
+  text-shadow: 2px 1px 3px rgba(0,0,0,.7);
+}
+li:hover {
+  color: #fff;
+  text-shadow: 0 0 3px rgba(15,192,252,.5);
+  cursor: pointer;
+  transition: 3s ease-in-out;
+}
+/* END AREA TOMBOL MENU */
+
+/* LIGHTSABER */
+.block {
+  position: absolute;
+  bottom:0;
+  height: 2px;
+  background: #CBFFFF;
+  border-radius: 15%;
+  box-shadow: 10px 0 10px 4px rgba(15,192,252,.5);
+}
+.handle {
+  width: 20%;
+  height: 2px;
+  background: #8A858F;
+}
+/* END LIGHTSABER */
+
+/* FOTO FIGURES */
+.foto {
+	position: absolute;
+	top:15%;left:200px;
+}
+img {
+  display: none;
+	position: relative;
+  top: 50%;left: 0;
+  width:50%;
+  border-radius: 3%;
+  z-index: -1;
+  box-shadow:0 0 50px rgba(203,255,255,.4);
+}
+/* END FOTO FIGURES */
+
+
+/* JUDUL HALAMAN */
+h1 {
+  padding:20px 20px 0 20px;margin-top:80px;
+  font-size: 80px;
+  font-weight: 900;
+  text-align: center;
+  color: yellow;
+  letter-spacing: -10px;
+  -webkit-text-stroke: 2px #FFED00;
+  text-shadow: 0 2px 25px rgba(255,240,0,.8);
+  }
+  /* JUDUL HALAMAN */
+
+
+/* AREA ANIMASI  */
+/* EFEK ANIMASI HILANG KE BAWAH */
+@keyframes turun {
+	0% {margin-top:0px;opacity:1;}
+	5% {margin-top:-10px;opacity:0.5;}
+	7%, 100% {margin-top:50px;opacity:0;}
+}
+
+/* EFEK ANIMASI TAMPIL */
+@keyframes naik {
+	0% {margin-top:10px;opacity:0;}
+	5% {margin-top:-2px;opacity:1;}
+	8% {margin-top:2px;opacity:1;}
+	16%, 25% {margin-top:0px;opacity:1;}
+	25%, 100% {margin-top:0px;opacity:1;}
+}
+
+/* EFEK ANIMASI HILANG KE KIRI*/
+@keyframes kiri {
+	0% {margin-left:0;opacity:1;}
+	8% {margin-left:15px;opacity:1;}
+	19%, 25% {margin-left:-200px;opacity:0;}
+	25%, 100% {margin-left:-200px; opacity:0;}
+}
+
+/* EFEK ANIMASI LIGHTSABER */
+@keyframes neon {
+  0% {box-shadow: 10px 0 19px 3px rgba(15,192,252,.3);}
+  25% {box-shadow: 10px 0 15px 3px rgba(15,192,252,.9);}
+  45% {box-shadow: 10px 0 6px 8px rgba(15,192,252,.5);}
+  65% {box-shadow: 10px 0 5px 5px rgba(15,192,252,.2);}
+  85%, 100% {box-shadow: 3px 0 13px 3px rgba(15,192,252,.6);}
+}
+/* END AREA ANIMASI  */
