@@ -18,11 +18,12 @@ https://bit.ly/2JGb16A
 Jangan lupa untuk terus mendukung ddQiaChannel dengan cara :
 1. SUBSCRIBE channel youtube kami (ddQia Channel)
 2. Like dan Share
-3. Kunjungi website kami ddqiachannel.com
+3. Kunjungi website kami http://www.ddqiachannel.com
 
 Terima kasih atas Gambar gratisnnya kepada:
-jalantikus.com
-pixabay.com
-stocksnap.io
+
+http://www.jalantikus.com
+http://www.pixabay.com
+http://www.stocksnap.io
 
 Terima Kasih atas dukungan subscribers
