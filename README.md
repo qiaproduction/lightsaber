@@ -9,11 +9,11 @@ Kode ini bebas dimodif dan gratis.
 Menggunakan bahasa HTML, CSS dan Vanilla Javascript.
 
 Untuk melihat video tutorial, bisa disaksikan di youtube, berikut ini:
-bit.ly/2XOgYs0
+https://bit.ly/2XOgYs0
 
 Video teaser:
-bit.ly/2GejIUy
-bit.ly/2JGb16A
+https://bit.ly/2GejIUy
+https://bit.ly/2JGb16A
 
 Jangan lupa untuk terus mendukung ddQiaChannel dengan cara :
 1. SUBSCRIBE channel youtube kami (ddQia Channel)
